@@ -54,7 +54,7 @@ RUN julia -e 'using Pkg; Pkg.add("PyCall"); ENV["PYTHON"] = "/opt/conda/envs/rou
 
 
 # # Run terminal
-# CMD ["julia"]
+CMD ["julia"]
 
 # RUN pip3 --no-cache-dir install --upgrade \
 #         altair \
